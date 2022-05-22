@@ -1,0 +1,52 @@
+body {
+  font-family: 'Anek Odia', sans-serif;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.page {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.page > table {
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px #eee;
+}
+
+.page > table > caption {
+  padding-bottom: 15px;
+}
+
+.page > table > tr > td, th {
+  padding: 5px;
+  padding-right: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.page > table > tr > th:last-child,
+.page > table > tr > td:last-child {
+  padding-right: 5px;
+}
+
+@media screen and (max-width: 520px) {
+  body {
+    font-size: 15px;
+  }
+
+  .page > table {
+    padding: 5px;
+  }
+
+  .page > table > tr > td, th {
+    padding-right: 5px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  body {
+    font-size: 12px;
+  }
+}
